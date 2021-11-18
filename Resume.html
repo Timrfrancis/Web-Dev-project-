@@ -1,0 +1,132 @@
+<!DOCTYPE html>  <!-- tell browsers that this is an HTML5 web page --> 
+<!-- check your code - validator: https://validator.w3.org/ -->
+<!-- HTML element documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+
+<!--   by default, index.html or default.html, web server can specify the main page-->
+<html lang="en"> <!--  HTML opening tag  -->
+
+    <head> <!-- comment tab: head: everything about a webpage--> 
+        <title>My Persona</title>
+    </head>
+
+<!-- HTML condenses consecutive spaces, tabs, or newlines (together known as “whitespace”) into a single space. -->
+
+<!-- Indenting nested elements like this is an important best practice 
+    that makes your HTML easier to read for other developers 
+    (or for yourself if you come back 5 months from now and want to change some stuff). 
+-->
+    <body> <!--  A web page’s head contains all of its metadata, like the page title, any CSS stylesheets, 
+        and other things that are required to render the page but you don’t necessarily want the user to see. -->
+
+        <a href="../index.html" id="top">Home</a>
+        <a href="#">Resume</a> <!--  <a href="#">Resume</a>  -->
+        <a href="contact.html">Contact Me</a>
+
+        <!--The HREF is an attribute of the anchor tag-->
+        
+        <br><br>
+
+        <a href="#edu">Education</a><br>
+        <a href="#exp">Experience</a><br>
+        <a href="#hob">Hobbies</a><br>
+        <a href="#ski">Skills</a><br>
+
+        <br><br>
+
+
+        <img src="https://static.wikia.nocookie.net/marvel_dc/images/a/a8/Action_Comics_Vol_1_1000_Textless.jpg/revision/latest?cb=20180411074920" height="400" alt="Big Muscle Superman"> <!--single tag, no closing, relative reference location, or http url for web image-->
+
+        <img src="../img/supermanflying.png" height="400" alt="Flying Superman"> <!--single tag, no closing, relative reference location, or http url for web image-->
+        <!-- the alt tag attribute is used to descrie the image, also useful for search engine optimization-->
+
+
+        <!-- list -->
+        
+        <ol>
+            <li id="edu">Education: 
+                <ul>
+                    <li>Arizona State University, PhD: </li>
+                    <li>Brigham Young University, MISM: </li>
+                    <li>Brigham Young University, BS: </li>
+                </ul>
+            </li>
+
+            <li id="exp">Experience: 
+                <ul>
+                    <li>Experience One </li>
+                    <li>Experience Two</li>
+                    <li>Experience Three</li>
+                </ul>
+            </li>
+
+            <li id="hob">Hobbies: 
+                <ul>
+                    <li>Hobby One </li>
+                    <li>Hobby Two</li>
+                    <li>Hobby Three</li>
+                </ul>
+            </li>
+
+            <li id="ski">Skills: 
+                <ul>
+                    <li>Database Design and Development</li>
+                    <li>Entity-Relationship Diagramming</li>
+                    <li>Structured Query Language (SQL)</li>
+                    <li>Tableau</li>
+                    <li>Excel Solver, PivotTables, and Charts</li>
+                    <li>Flowchart Diagramming</li>
+                    <li>HTML, CSS, Bootstrap</li>
+                    <li>Visual Basic for Application (VBA) Programming in Excel</li>
+                </ul>
+            </li>
+        </ol>
+
+
+        <hr/> <!-- The <hr/> element is a “horizontal rule”, which represents a thematic break. -->
+        
+        
+        <!-- Inline element <em> </em>-->
+        <!-- Inline element <strong> </strong>-->
+
+        <h4><em>Hao Li's Persona</em></h4> <!-- h1, h2, h3, size differences-->
+        <!-- The higher the number, the less prominent the heading. 
+        By default, browsers render less important headings in smaller fonts.
+        -->
+        
+        Instructor of IS 201
+        Graduate MISM Student<br>
+        Marriott Business School<br>
+        Brigham Young University<br>
+        Provo, UT, 84604<br>
+
+        <a href="https://www.byu.edu/"  target="_blank" title="Brigham Young University">Click to Brigham Young University Website</a>
+
+
+        <p>Mission Statement: My goal after graduating is to become a great data analyst</p>
+
+
+        <a href="#top"> Back to Top</a>
+
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>test&nbsp;test</p> <!-- Non-breaking space -->
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+    </body>
+
+</html>
